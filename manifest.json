@@ -4,7 +4,7 @@
     "packaging_format": 1,
     "description": {
         "en": "Self-hosted tag-based time tracking",
-        "fr": "self-hosted tag-based time tracking"
+        "fr": "Outil de suivi du temps auto-hébergé"
     },
     "version": "0.2.3~ynh1",
     "url": "https://traggo.net",
