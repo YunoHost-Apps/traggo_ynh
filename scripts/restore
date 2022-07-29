@@ -63,6 +63,16 @@ chown -R $app:www-data "$final_path"
 chmod +x $final_path/traggo-server
 
 #=================================================
+# SPECIFIC RESTORATION
+#=================================================
+# REINSTALL DEPENDENCIES
+#=================================================
+ynh_script_progression --message="Reinstalling dependencies..." --weight=3
+
+# Define and install dependencies
+ynh_install_app_dependencies $pkg_dependencies
+
+#=================================================
 # RESTORE THE NGINX CONFIGURATION
 #=================================================
 ynh_script_progression --message="Restoring the NGINX web server configuration..." --weight=2
