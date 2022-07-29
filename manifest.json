@@ -1,0 +1,55 @@
+{
+    "name": "Traggo",
+    "id": "traggo",
+    "packaging_format": 1,
+    "description": {
+        "en": "Self-hosted tag-based time tracking",
+        "fr": "self-hosted tag-based time tracking"
+    },
+    "version": "0.2.3~ynh1",
+    "url": "https://traggo.net",
+    "upstream": {
+        "license": "GPL-3.0",
+        "website": "https://traggo.net",
+        "admindoc": "https://traggo.net/config/",
+        "code": "https://github.com/traggo/server"
+    },
+    "license": "GPL-3.0",
+    "maintainer": {
+        "name": "John doe",
+        "email": "john.doe@example.com"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "mysql"
+    ],
+    "arguments": {
+        "install": [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "name": "admin",
+                "type": "user"
+            },
+            {
+                "name": "password",
+                "type": "password",
+                "help": {
+                    "en": "Use the help field to add an information for the admin about this question.",
+                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+                }
+            }
+        ]
+    }
+}
