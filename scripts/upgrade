@@ -68,7 +68,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=3
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$final_path" --source_id=$YNH_ARCH --keep="$final_path/.env"
+	ynh_setup_source --dest_dir="$final_path" --source_id=$YNH_ARCH --keep=".env"
 fi
 
 mv $final_path/traggo-server-* $final_path/traggo-server
