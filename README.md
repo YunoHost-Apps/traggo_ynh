@@ -30,6 +30,7 @@ With tags, Traggo tries to be as customizable as possible, for example if you wo
 
 **Shipped version:** 0.2.3~ynh1
 
+
 ## Screenshots
 
 ![Screenshot of Traggo](./doc/screenshots/traggo_calendar.png)

@@ -28,7 +28,8 @@ With tags, Traggo tries to be as customizable as possible, for example if you wo
 - Sleek web ui with multiple themes
 - Simple user management
 
-**Version incluse :** 0.2.3~ynh1
+**Version incluse :** 0.2.3~ynh1
+
 
 ## Captures d'écran
 
