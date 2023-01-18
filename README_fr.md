@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Traggo pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)  
 [![Installer Traggo avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Traggo rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Traggo rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.
 
@@ -28,18 +28,17 @@ With tags, Traggo tries to be as customizable as possible, for example if you wo
 - Sleek web ui with multiple themes
 - Simple user management
 
-**Version incluse :** 0.2.3~ynh1
+**Version incluse :** 0.2.3~ynh1
 
+## Captures d’écran
 
-## Captures d'écran
-
-![Capture d'écran de Traggo](./doc/screenshots/traggo_calendar.png)
+![Capture d’écran de Traggo](./doc/screenshots/traggo_calendar.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://traggo.net>
-* Documentation officielle de l'admin : <https://traggo.net/config/>
-* Dépôt de code officiel de l'app : <https://github.com/traggo/server>
+* Site officiel de l’app : <https://traggo.net>
+* Documentation officielle de l’admin : <https://traggo.net/config/>
+* Dépôt de code officiel de l’app : <https://github.com/traggo/server>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_traggo>
 * Signaler un bug : <https://github.com/YunoHost-Apps/traggo_ynh/issues>
 
@@ -55,4 +54,4 @@ ou
 sudo yunohost app upgrade traggo -u https://github.com/YunoHost-Apps/traggo_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
