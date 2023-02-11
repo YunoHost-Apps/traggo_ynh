@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # Traggo for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Working status](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Working status](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
 [![Install Traggo with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -28,7 +28,7 @@ With tags, Traggo tries to be as customizable as possible, for example if you wo
 - Sleek web ui with multiple themes
 - Simple user management
 
-**Shipped version:** 0.2.3~ynh1
+**Shipped version:** 0.3.0~ynh1
 
 ## Screenshots
 
