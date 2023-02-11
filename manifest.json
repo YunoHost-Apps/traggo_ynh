@@ -6,7 +6,7 @@
         "en": "Self-hosted tag-based time tracking",
         "fr": "Outil de suivi du temps auto-hébergé"
     },
-    "version": "0.2.3~ynh1",
+    "version": "0.3.0~ynh1",
     "url": "https://traggo.net",
     "upstream": {
         "license": "GPL-3.0",
@@ -16,7 +16,7 @@
     },
     "license": "GPL-3.0",
     "maintainer": {
-        "name": "",
+        "name": "eric_G",
         "email": ""
     },
     "requirements": {
