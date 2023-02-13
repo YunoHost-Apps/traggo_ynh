@@ -4,9 +4,9 @@ With tags, Traggo tries to be as customizable as possible, for example if you wo
 
 ### Features
 
-- easy to setup
-- time tracking (obviously)
-- customizable dashboards with diagrams
-- a list and calendar view of the tracked time
-- sleek web ui with multiple themes
-- simple user management
+- Easy to setup
+- Time tracking (obviously)
+- Customizable dashboards with diagrams
+- A list and calendar view of the tracked time
+- Sleek web ui with multiple themes
+- Simple user management
