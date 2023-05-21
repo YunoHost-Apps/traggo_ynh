@@ -15,7 +15,7 @@ source /usr/share/yunohost/helpers
 ynh_script_progression --message="Setting up source files..." --weight=3
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir" --source_id=$YNH_ARCH
+ynh_setup_source --dest_dir="$install_dir"
 
 mv $install_dir/traggo-server-* $install_dir/traggo-server
 
