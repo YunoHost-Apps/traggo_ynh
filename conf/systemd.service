@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/traggo-server
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=__INSTALL_DIR__/traggo-server
 
 # Sandboxing options to harden security
 # Depending on specificities of your service/app, you may need to tweak these

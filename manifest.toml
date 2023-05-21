@@ -1,0 +1,65 @@
+packaging_format = 2
+
+id = "traggo"
+name = "Traggo"
+description.en = "Self-hosted tag-based time tracking"
+description.fr = "Outil de suivi du temps auto-hébergé"
+
+version = "0.3.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-3.0"
+website = "https://traggo.net"
+admindoc = "https://traggo.net/config/"
+code = "https://github.com/traggo/server"
+
+[integration]
+yunohost = ">= 11.1.19"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+    full_domain = true
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    type = "password"
+
+[resources]
+        [resources.sources.main]
+        in_subdir = false
+        arm64.url = "https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-arm64.zip"
+        arm64.sha256 = "7430f4540d4f4428be71fc6bde1a7665f652b503f40c47b781fda920ed8437fa"
+        amd64.url = "https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-amd64.zip"
+        amd64.sha256 = "bde681e8aa60327799c2078649d8646e1d3c1c9d35d34430fd52ce04e419106c"
+        armhf.url = "https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-arm-7.zip"
+        armhf.sha256 = "420a1c7e091fcdea86c9c3ff5aebc294875b9a4db7199739caf85339ba655052"
+        i386.url = "https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-386.zip"
+        i386.sha256 = "c45aa6db1088b07323b1f076eff728834c531e6e739d86f767ba96972d07b457"
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "sqlite3"
