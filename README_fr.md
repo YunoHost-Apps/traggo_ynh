@@ -16,16 +16,16 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans. With tags, Traggo tries to be as customizable as possible, for example if you work on different projects you could add a project-tag. If you like to see statistics from the different things you do, you could add a type-tag with values like email, programming, meeting. You can do it just as you like.
+Traggo est un outil de suivi du temps basé sur des balises. Dans Traggo, il n'y a pas de tâches, seulement des périodes de temps étiquetées. Avec les balises, Traggo essaie d'être aussi personnalisable que possible, par exemple si vous travaillez sur différents projets, vous pouvez ajouter une balise de projet. Si vous aimez voir des statistiques sur les différentes choses que vous faites, vous pouvez ajouter une balise de type avec des valeurs telles que e-mail, programmation, réunion. Vous pouvez le faire comme vous le souhaitez.
 
-### Features
+### Caractéristiques
 
-- Easy to setup
-- Time tracking (obviously)
-- Customizable dashboards with diagrams
-- A list and calendar view of the tracked time
-- Sleek web ui with multiple themes
-- Simple user management
+- Facile à configurer
+- Suivi du temps (évidemment)
+- Tableaux de bord personnalisables avec diagrammes
+- Une liste et une vue calendrier du temps suivi
+- Interface utilisateur Web élégante avec plusieurs thèmes
+- Gestion simple des utilisateurs
 
 **Version incluse :** 0.3.0~ynh2
 
