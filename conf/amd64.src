@@ -1,7 +1,0 @@
-SOURCE_URL=https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-amd64.zip
-SOURCE_SUM=bde681e8aa60327799c2078649d8646e1d3c1c9d35d34430fd52ce04e419106c
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=false
-SOURCE_FILENAME=
-SOURCE_EXTRACT=true
