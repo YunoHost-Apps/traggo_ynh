@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Traggo pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+
 [![Installer Traggo avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
 *[Read this readme in english.](./README.md)*
