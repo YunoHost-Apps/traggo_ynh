@@ -38,7 +38,7 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 * Official app website: <https://traggo.net>
 * Official admin documentation: <https://traggo.net/config/>
 * Upstream app code repository: <https://github.com/traggo/server>
-* YunoHost documentation for this app: <https://yunohost.org/app_traggo>
+* YunoHost Store: <https://apps.yunohost.org/app/traggo>
 * Report a bug: <https://github.com/YunoHost-Apps/traggo_ynh/issues>
 
 ## Developer info
