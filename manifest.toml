@@ -7,7 +7,7 @@ description.fr = "Outil de suivi du temps auto-hébergé"
 
 version = "0.3.0~ynh2"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "GPL-3.0"
