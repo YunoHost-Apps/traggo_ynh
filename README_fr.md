@@ -38,7 +38,7 @@ Traggo est un outil de suivi du temps basé sur des balises. Dans Traggo, il n'y
 * Site officiel de l’app : <https://traggo.net>
 * Documentation officielle de l’admin : <https://traggo.net/config/>
 * Dépôt de code officiel de l’app : <https://github.com/traggo/server>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_traggo>
+* YunoHost Store: <https://apps.yunohost.org/app/traggo>
 * Signaler un bug : <https://github.com/YunoHost-Apps/traggo_ynh/issues>
 
 ## Informations pour les développeurs
