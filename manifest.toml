@@ -51,6 +51,12 @@ ram.runtime = "50M"
         i386.url = "https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-386.zip"
         i386.sha256 = "c45aa6db1088b07323b1f076eff728834c531e6e739d86f767ba96972d07b457"
 
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset.arm64 = "^traggo-server-.*-linux-arm64.zip$"
+        autoupdate.asset.amd64 = "^traggo-server-.*-linux-amd64.zip$"
+        autoupdate.asset.armhf = "^traggo-server-.*-linux-arm-7.zip$"
+        autoupdate.asset.i386 = "^traggo-server-.*-linux-386.zip$"
+
     [resources.ports]
 
     [resources.system_user]
