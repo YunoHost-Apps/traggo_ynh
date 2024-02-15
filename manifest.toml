@@ -7,7 +7,7 @@ description.fr = "Outil de suivi du temps auto-hébergé"
 
 version = "0.3.0~ynh2"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "GPL-3.0"
@@ -16,7 +16,7 @@ admindoc = "https://traggo.net/config/"
 code = "https://github.com/traggo/server"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -28,7 +28,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
 
     [install.init_main_permission]
     type = "group"
@@ -51,6 +50,12 @@ ram.runtime = "50M"
         armhf.sha256 = "420a1c7e091fcdea86c9c3ff5aebc294875b9a4db7199739caf85339ba655052"
         i386.url = "https://github.com/traggo/server/releases/download/v0.3.0/traggo-server-0.3.0-linux-386.zip"
         i386.sha256 = "c45aa6db1088b07323b1f076eff728834c531e6e739d86f767ba96972d07b457"
+
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset.arm64 = "^traggo-server-.*-linux-arm64.zip$"
+        autoupdate.asset.amd64 = "^traggo-server-.*-linux-amd64.zip$"
+        autoupdate.asset.armhf = "^traggo-server-.*-linux-arm-7.zip$"
+        autoupdate.asset.i386 = "^traggo-server-.*-linux-386.zip$"
 
     [resources.ports]
 
