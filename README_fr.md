@@ -26,7 +26,6 @@ Traggo est un outil de suivi du temps basé sur des balises. Dans Traggo, il n'y
 - Une liste et une vue calendrier du temps suivi
 - Interface utilisateur Web élégante avec plusieurs thèmes
 - Gestion simple des utilisateurs
-
 **Version incluse :** 0.3.0~ynh2
 
 ## Captures d’écran
@@ -35,11 +34,11 @@ Traggo est un outil de suivi du temps basé sur des balises. Dans Traggo, il n'y
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://traggo.net>
-* Documentation officielle de l’admin : <https://traggo.net/config/>
-* Dépôt de code officiel de l’app : <https://github.com/traggo/server>
-* YunoHost Store: <https://apps.yunohost.org/app/traggo>
-* Signaler un bug : <https://github.com/YunoHost-Apps/traggo_ynh/issues>
+- Site officiel de l’app : <https://traggo.net>
+- Documentation officielle de l’admin : <https://traggo.net/config/>
+- Dépôt de code officiel de l’app : <https://github.com/traggo/server>
+- YunoHost Store : <https://apps.yunohost.org/app/traggo>
+- Signaler un bug : <https://github.com/YunoHost-Apps/traggo_ynh/issues>
 
 ## Informations pour les développeurs
 
@@ -47,7 +46,7 @@ Merci de faire vos pull request sur la [branche testing](https://github.com/Yuno
 
 Pour essayer la branche testing, procédez comme suit.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/traggo_ynh/tree/testing --debug
 ou
 sudo yunohost app upgrade traggo -u https://github.com/YunoHost-Apps/traggo_ynh/tree/testing --debug

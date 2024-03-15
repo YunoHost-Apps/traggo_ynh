@@ -26,7 +26,6 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - A list and calendar view of the tracked time
 - Sleek web ui with multiple themes
 - Simple user management
-
 **Shipped version:** 0.3.0~ynh2
 
 ## Screenshots
@@ -35,11 +34,11 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 
 ## Documentation and resources
 
-* Official app website: <https://traggo.net>
-* Official admin documentation: <https://traggo.net/config/>
-* Upstream app code repository: <https://github.com/traggo/server>
-* YunoHost Store: <https://apps.yunohost.org/app/traggo>
-* Report a bug: <https://github.com/YunoHost-Apps/traggo_ynh/issues>
+- Official app website: <https://traggo.net>
+- Official admin documentation: <https://traggo.net/config/>
+- Upstream app code repository: <https://github.com/traggo/server>
+- YunoHost Store: <https://apps.yunohost.org/app/traggo>
+- Report a bug: <https://github.com/YunoHost-Apps/traggo_ynh/issues>
 
 ## Developer info
 
@@ -47,7 +46,7 @@ Please send your pull request to the [testing branch](https://github.com/YunoHos
 
 To try the testing branch, please proceed like that.
 
-``` bash
+```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/traggo_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade traggo -u https://github.com/YunoHost-Apps/traggo_ynh/tree/testing --debug
