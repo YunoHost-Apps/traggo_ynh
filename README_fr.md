@@ -26,6 +26,7 @@ Traggo est un outil de suivi du temps basé sur des balises. Dans Traggo, il n'y
 - Une liste et une vue calendrier du temps suivi
 - Interface utilisateur Web élégante avec plusieurs thèmes
 - Gestion simple des utilisateurs
+
 **Version incluse :** 0.3.0~ynh2
 
 ## Captures d’écran
