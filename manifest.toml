@@ -2,8 +2,8 @@ packaging_format = 2
 
 id = "traggo"
 name = "Traggo"
-description.en = "Self-hosted tag-based time tracking"
-description.fr = "Outil de suivi du temps auto-hébergé"
+description.en = "Tag-based time tracking tool"
+description.fr = "Outil de suivi du temps basé sur des étiquettes"
 
 version = "0.4.3~ynh1"
 
