@@ -31,7 +31,7 @@ You can do it just as you like.
 - Sleek web ui with multiple themes
 - Simple user management
 
-**Shipped version:** 0.4.3~ynh1
+**Shipped version:** 0.4.4~ynh1
 
 ## Screenshots
 

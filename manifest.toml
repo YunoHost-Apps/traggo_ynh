@@ -5,7 +5,7 @@ name = "Traggo"
 description.en = "Tag-based time tracking tool"
 description.fr = "Outil de suivi du temps basé sur des étiquettes"
 
-version = "0.4.3~ynh1"
+version = "0.4.4~ynh1"
 
 maintainers = []
 
@@ -42,14 +42,14 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         in_subdir = false
-        arm64.url = "https://github.com/traggo/server/releases/download/v0.4.3/traggo_0.4.3_linux_arm64.tar.gz"
-        arm64.sha256 = "004c35548ccade0fd2ecefb6c199718ecd1d7e5071dab709de155bbb17f049d7"
-        amd64.url = "https://github.com/traggo/server/releases/download/v0.4.3/traggo_0.4.3_linux_amd64.tar.gz"
-        amd64.sha256 = "bf28626599a038cdf6dac4533425fed2ff2197ff6a21062d3ade1ad795c7b79f"
-        armhf.url = "https://github.com/traggo/server/releases/download/v0.4.3/traggo_0.4.3_linux_armv7.tar.gz"
-        armhf.sha256 = "2f854f2fd9b055500f33c1d8b484104ff1520c5dbccff0292f0421514570f4f4"
-        i386.url = "https://github.com/traggo/server/releases/download/v0.4.3/traggo_0.4.3_linux_i386.tar.gz"
-        i386.sha256 = "4fd2b70268aa552fb21b07bcfef60f21c0bf0282f2d58c8387cb0b2c0f496d3e"
+        arm64.url = "https://github.com/traggo/server/releases/download/v0.4.4/traggo_0.4.4_linux_arm64.tar.gz"
+        arm64.sha256 = "52e62ab4ea77a527035635ec65cee461ded8abfe8a523319a69b7cb3d7f1234d"
+        amd64.url = "https://github.com/traggo/server/releases/download/v0.4.4/traggo_0.4.4_linux_amd64.tar.gz"
+        amd64.sha256 = "7383fc69978c5dcbc7ae55d21db917a90b1e7661f724b247edce6139ab72f530"
+        armhf.url = "https://github.com/traggo/server/releases/download/v0.4.4/traggo_0.4.4_linux_armv7.tar.gz"
+        armhf.sha256 = "a384b4f2b888a2305c03a79f11d1fec07706b097ba02ff1d443b665990147b55"
+        i386.url = "https://github.com/traggo/server/releases/download/v0.4.4/traggo_0.4.4_linux_i386.tar.gz"
+        i386.sha256 = "91445a492e2ded8ebda8cba5024327852af11f0c30f395f30af7ec2fc10c4baa"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.arm64 = "^traggo_.*_linux_arm64.tar.gz$"
