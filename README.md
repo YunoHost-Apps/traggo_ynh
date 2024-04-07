@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Traggo with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Traggo quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -30,6 +30,7 @@ You can do it just as you like.
 - A list and calendar view of the tracked time
 - Sleek web ui with multiple themes
 - Simple user management
+
 
 **Shipped version:** 0.4.4~ynh1
 

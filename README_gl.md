@@ -16,7 +16,11 @@ NON debe editarse manualmente.
 
 ## Vista xeral
 
-Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans. With tags, Traggo tries to be as customizable as possible, for example if you work on different projects you could add a project-tag. If you like to see statistics from the different things you do, you could add a type-tag with values like email, programming, meeting. You can do it just as you like.
+Traggo is a tag-based time tracking tool.  
+In Traggo there are no tasks, only tagged time spans.  
+With tags, Traggo tries to be as customizable as possible, for example if you work on different projects you could add a project-tag.  
+If you like to see statistics from the different things you do, you could add a type-tag with values like email, programming, meeting.  
+You can do it just as you like.
 
 ### Features
 
@@ -27,7 +31,8 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - Sleek web ui with multiple themes
 - Simple user management
 
-**Versión proporcionada:** 0.3.0~ynh2
+
+**Versión proporcionada:** 0.4.4~ynh1
 
 ## Capturas de pantalla
 

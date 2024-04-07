@@ -31,7 +31,8 @@ Vous pouvez le faire comme vous le souhaitez.
 - Interface utilisateur Web élégante avec plusieurs thèmes
 - Gestion simple des utilisateurs
 
-**Version incluse :** 0.4.4~ynh1
+
+**Version incluse :** 0.4.4~ynh1
 
 ## Captures d’écran
 
