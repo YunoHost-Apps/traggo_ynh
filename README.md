@@ -9,14 +9,18 @@ It shall NOT be edited by hand.
 
 [![Install Traggo with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Traggo quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
 
 ## Overview
 
-Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans. With tags, Traggo tries to be as customizable as possible, for example if you work on different projects you could add a project-tag. If you like to see statistics from the different things you do, you could add a type-tag with values like email, programming, meeting. You can do it just as you like.
+Traggo is a tag-based time tracking tool.  
+In Traggo there are no tasks, only tagged time spans.  
+With tags, Traggo tries to be as customizable as possible, for example if you work on different projects you could add a project-tag.  
+If you like to see statistics from the different things you do, you could add a type-tag with values like email, programming, meeting.  
+You can do it just as you like.
 
 ### Features
 
@@ -27,7 +31,8 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - Sleek web ui with multiple themes
 - Simple user management
 
-**Shipped version:** 0.3.0~ynh2
+
+**Shipped version:** 0.4.4~ynh1
 
 ## Screenshots
 
