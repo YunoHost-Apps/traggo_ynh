@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Traggo
 
-[![集成程度](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![工作状态](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
 
 [![使用 YunoHost 安装 Traggo](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**分发版本：** 0.4.4~ynh1
+**分发版本：** 0.4.5~ynh1
 
 ## 截图
 
