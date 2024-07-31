@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Traggo pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
 
 [![Installer Traggo avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -32,7 +32,7 @@ Vous pouvez le faire comme vous le souhaitez.
 - Gestion simple des utilisateurs
 
 
-**Version incluse :** 0.4.4~ynh1
+**Version incluse :** 0.4.5~ynh1
 
 ## Captures d’écran
 

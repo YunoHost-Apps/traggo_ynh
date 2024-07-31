@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Traggo YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
 
 [![Instalatu Traggo YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**Paketatutako bertsioa:** 0.4.4~ynh1
+**Paketatutako bertsioa:** 0.4.5~ynh1
 
 ## Pantaila-argazkiak
 

@@ -5,7 +5,7 @@ NON debe editarse manualmente.
 
 # Traggo para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/traggo.svg)](https://dash.yunohost.org/appci/app/traggo) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
 
 [![Instalar Traggo con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**Versión proporcionada:** 0.4.4~ynh1
+**Versión proporcionada:** 0.4.5~ynh1
 
 ## Capturas de pantalla
 
