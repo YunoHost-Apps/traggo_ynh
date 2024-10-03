@@ -5,7 +5,7 @@ name = "Traggo"
 description.en = "Tag-based time tracking tool"
 description.fr = "Outil de suivi du temps basé sur des étiquettes"
 
-version = "0.4.5~ynh1"
+version = "0.5.0~ynh1"
 
 maintainers = []
 
@@ -16,7 +16,8 @@ admindoc = "https://traggo.net/config/"
 code = "https://github.com/traggo/server"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 ldap = false
@@ -42,14 +43,14 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         in_subdir = false
-        arm64.url = "https://github.com/traggo/server/releases/download/v0.4.5/traggo_0.4.5_linux_arm64.tar.gz"
-        arm64.sha256 = "842238c8ed530ec56e13932c80f8eb6597faca7d8688bca92157a0b833061f40"
-        amd64.url = "https://github.com/traggo/server/releases/download/v0.4.5/traggo_0.4.5_linux_amd64.tar.gz"
-        amd64.sha256 = "09e14cdc7085b2cfabd608977e60be2d45b4bb248767c03973a02c4626dda693"
-        armhf.url = "https://github.com/traggo/server/releases/download/v0.4.5/traggo_0.4.5_linux_armv7.tar.gz"
-        armhf.sha256 = "2f657eccdd608da7d1d250218e6961a2cc1284014ca38639205d9aaf04f4757f"
-        i386.url = "https://github.com/traggo/server/releases/download/v0.4.5/traggo_0.4.5_linux_i386.tar.gz"
-        i386.sha256 = "d2224072c87bf6b01ef967cd94127926966fde239d682bb67d1d8545d87737d3"
+        arm64.url = "https://github.com/traggo/server/releases/download/v0.5.0/traggo_0.5.0_linux_arm64.tar.gz"
+        arm64.sha256 = "e8687bac91b2d2f800fd54e18f1d6a9d55a0699ec85d664d2312140c64c1203a"
+        amd64.url = "https://github.com/traggo/server/releases/download/v0.5.0/traggo_0.5.0_linux_amd64.tar.gz"
+        amd64.sha256 = "f5e851416d957e9c165ff12f7f63e634a34e9456013abbd23a5b0f9ba85077e9"
+        armhf.url = "https://github.com/traggo/server/releases/download/v0.5.0/traggo_0.5.0_linux_armv7.tar.gz"
+        armhf.sha256 = "b57693291b34d0f195dbebf6edb817c9586f2c9815f3938ad30b0d21ad29b70f"
+        i386.url = "https://github.com/traggo/server/releases/download/v0.5.0/traggo_0.5.0_linux_i386.tar.gz"
+        i386.sha256 = "d7dee7fb44f4c564fa3b97f1b061494e29337440bd1b6e5d49b2f66b72995972"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.arm64 = "^traggo_.*_linux_arm64.tar.gz$"
