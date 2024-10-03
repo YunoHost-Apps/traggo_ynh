@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**Paketatutako bertsioa:** 0.4.5~ynh1
+**Paketatutako bertsioa:** 0.5.0~ynh1
 
 ## Pantaila-argazkiak
 

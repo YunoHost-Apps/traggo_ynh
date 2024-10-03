@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**Versión proporcionada:** 0.4.5~ynh1
+**Versión proporcionada:** 0.5.0~ynh1
 
 ## Capturas de pantalla
 

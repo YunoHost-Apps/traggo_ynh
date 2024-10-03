@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**分发版本：** 0.4.5~ynh1
+**分发版本：** 0.5.0~ynh1
 
 ## 截图
 

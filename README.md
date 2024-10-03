@@ -32,7 +32,7 @@ You can do it just as you like.
 - Simple user management
 
 
-**Shipped version:** 0.4.5~ynh1
+**Shipped version:** 0.5.0~ynh1
 
 ## Screenshots
 

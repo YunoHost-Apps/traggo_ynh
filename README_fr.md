@@ -32,7 +32,7 @@ Vous pouvez le faire comme vous le souhaitez.
 - Gestion simple des utilisateurs
 
 
-**Version incluse :** 0.4.5~ynh1
+**Version incluse :** 0.5.0~ynh1
 
 ## Captures d’écran
 
