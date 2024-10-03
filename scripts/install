@@ -30,7 +30,7 @@ ynh_config_add_systemd
 
 ynh_config_add_logrotate
 
-yunohost service add "$app" --description="Self-hosted tag-based time tracking" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Tag-based time tracking" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE

@@ -13,16 +13,16 @@ ynh_restore "$install_dir"
 chmod +x "$install_dir/traggo"
 
 #=================================================
-# RESTORE THE NGINX CONFIGURATION
+# RESTORE SYSTEM CONFIGURATIONS
 #=================================================
-ynh_script_progression "Restoring the NGINX web server configuration..."
+ynh_script_progression "Restoring system configurations related to $app..."
 
 ynh_restore "/etc/nginx/conf.d/$domain.d/$app.conf"
 
 ynh_restore "/etc/systemd/system/$app.service"
 systemctl enable "$app.service" --quiet
 
-yunohost service add "$app" --description="Self-hosted tag-based time tracking" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Tag-based time tracking" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
