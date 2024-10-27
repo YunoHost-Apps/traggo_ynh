@@ -29,7 +29,7 @@ Si vous aimez voir des statistiques sur les différentes choses que vous faites,
 - Gestion simple des utilisateurs
 
 
-**Version incluse :** 0.5.0~ynh1
+**Version incluse :** 0.5.1~ynh1
 
 ## Captures d’écran
 

@@ -28,7 +28,7 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - Simple user management
 
 
-**Versi terkirim:** 0.5.0~ynh1
+**Versi terkirim:** 0.5.1~ynh1
 
 ## Tangkapan Layar
 
