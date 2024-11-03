@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Traggo untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/traggo)](https://ci-apps.yunohost.org/ci/apps/traggo/)
+![Status kerja](https://apps.yunohost.org/badge/state/traggo)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/traggo)
 
 [![Pasang Traggo dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -28,7 +30,7 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - Simple user management
 
 
-**Versi terkirim:** 0.5.0~ynh1
+**Versi terkirim:** 0.6.1~ynh1
 
 ## Tangkapan Layar
 

@@ -5,7 +5,9 @@
 
 # Traggo для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/traggo)](https://ci-apps.yunohost.org/ci/apps/traggo/)
+![Состояние работы](https://apps.yunohost.org/badge/state/traggo)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/traggo)
 
 [![Установите Traggo с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -28,7 +30,7 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - Simple user management
 
 
-**Поставляемая версия:** 0.5.0~ynh1
+**Поставляемая версия:** 0.6.1~ynh1
 
 ## Снимки экрана
 
