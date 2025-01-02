@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Traggo YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/traggo.svg)](https://ci-apps.yunohost.org/ci/apps/traggo/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/traggo.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/traggo.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/traggo)](https://ci-apps.yunohost.org/ci/apps/traggo/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/traggo)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/traggo)
 
 [![Instalatu Traggo YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=traggo)
 
@@ -28,7 +30,7 @@ Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tag
 - Simple user management
 
 
-**Paketatutako bertsioa:** 0.6.0~ynh1
+**Paketatutako bertsioa:** 0.6.1~ynh1
 
 ## Pantaila-argazkiak
 
