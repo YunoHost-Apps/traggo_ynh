@@ -18,7 +18,7 @@ code = "https://github.com/traggo/server"
 [integration]
 yunohost = ">= 11.2.30"
 helpers_version = "2.1"
-architectures = "all"
+architectures = "amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = false
 sso = false
@@ -49,14 +49,12 @@ ram.runtime = "50M"
         amd64.sha256 = "7b15d5145812b30a6f03aa44333b24c7c158eef9fde69bca79f417de612061e8"
         armhf.url = "https://github.com/traggo/server/releases/download/v0.7.1/traggo_0.7.1_linux_armv7.tar.gz"
         armhf.sha256 = "997c28a9a1cc3d6c91cf6fd78cb4eba3fdd5503121708866b3f50d71dcea5c86"
-        i386.url = "https://github.com/traggo/server/releases/download/v0.7.1/traggo_0.7.1_linux_i386.tar.gz"
-        i386.sha256 = "5c16e2f98c79d0a504ffe166c50a230f4b0a9a73d09186050fd13dd848b93990"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.arm64 = "^traggo_.*_linux_arm64.tar.gz$"
         autoupdate.asset.amd64 = "^traggo_.*_linux_amd64.tar.gz$"
         autoupdate.asset.armhf = "^traggo_.*_linux_armv7.tar.gz$"
-        autoupdate.asset.i386 = "^traggo_.*_linux_i386.tar.gz$"
+
 
     [resources.ports]
 
