@@ -18,7 +18,7 @@ code = "https://github.com/traggo/server"
 [integration]
 yunohost = ">= 11.2.30"
 helpers_version = "2.1"
-architectures = "amd64", "arm64", "armhf"]
+architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = false
 sso = false
