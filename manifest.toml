@@ -5,7 +5,7 @@ name = "Traggo"
 description.en = "Tag-based time tracking tool"
 description.fr = "Outil de suivi du temps basé sur des étiquettes"
 
-version = "0.8.2~ynh1"
+version = "0.8.3~ynh1"
 
 maintainers = []
 
@@ -43,12 +43,12 @@ ram.runtime = "50M"
 [resources]
         [resources.sources.main]
         in_subdir = false
-        arm64.url = "https://github.com/traggo/server/releases/download/v0.8.2/traggo_0.8.2_linux_arm64.tar.gz"
-        arm64.sha256 = "070b1a01605524d4eefca1ce1f346720b52139b2064252a6eb5ad7fcbdfc4bda"
-        amd64.url = "https://github.com/traggo/server/releases/download/v0.8.2/traggo_0.8.2_linux_amd64.tar.gz"
-        amd64.sha256 = "3e533d2ee0ec0f0afa76dd28626ac6d7f3828e74849962e450ab0c7052b81287"
-        armhf.url = "https://github.com/traggo/server/releases/download/v0.8.2/traggo_0.8.2_linux_armv7.tar.gz"
-        armhf.sha256 = "af80237a36bc9edcc9fb9a8be6d78f1997e54c1583c8d8a6c03ee49517da73d3"
+        arm64.url = "https://github.com/traggo/server/releases/download/v0.8.3/traggo_0.8.3_linux_arm64.tar.gz"
+        arm64.sha256 = "cc44e61a99b7741cc8c4820f695ce52d1af437e82948e8ab2832b56388990f70"
+        amd64.url = "https://github.com/traggo/server/releases/download/v0.8.3/traggo_0.8.3_linux_amd64.tar.gz"
+        amd64.sha256 = "c14012c5d4975c23e8214770bba02a106de7fa8fcf1d10c7a127ebec30536639"
+        armhf.url = "https://github.com/traggo/server/releases/download/v0.8.3/traggo_0.8.3_linux_armv7.tar.gz"
+        armhf.sha256 = "454e2235c268cc4d31de1a27a8430db41d5f1998375b8539353393e0f26e3fa0"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.arm64 = "^traggo_.*_linux_arm64.tar.gz$"
